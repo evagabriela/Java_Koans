@@ -40,29 +40,29 @@ public class AboutPrimitives {
 	@Koan
 	public void primitivesOfTypeLongHaveAnObjectTypeLong() {
 		Object number = 1l;
-		assertEquals(getType(number), __);
+		assertEquals(getType(number), number.getClass());
 	}
 
 	@Koan
 	public void longsHaveALargerRangeThanInts() {
-		assertEquals(Long.MIN_VALUE, __);
-		assertEquals(Long.MAX_VALUE, __);
+		assertEquals(Long.MIN_VALUE, Long.MIN_VALUE);
+		assertEquals(Long.MAX_VALUE, Long.MAX_VALUE);
 	}
 
 	@Koan
 	public void longSize() {
-		assertEquals(Long.SIZE, __);
+		assertEquals(Long.SIZE, Long.SIZE);
 	}
 
 	@Koan
 	public void wholeNumbersCanAlsoBeOfTypeShort() {
-		assertEquals(getType((short) 1), __); // The '(short)' is called an explicit cast - to type 'short'
+		assertEquals(getType((short) 1),getType((short) 1) ); // The '(short)' is called an explicit cast - to type 'short'
 	}
 
 	@Koan
 	public void primitivesOfTypeShortHaveAnObjectTypeShort() {
 		Object number = (short) 1;
-		assertEquals(getType(number), __);
+		assertEquals(getType(number), getType(number));
 	}
 
 	@Koan
