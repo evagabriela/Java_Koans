@@ -67,129 +67,130 @@ public class AboutPrimitives {
 
 	@Koan
 	public void shortsHaveASmallerRangeThanInts() {
-		assertEquals(Short.MIN_VALUE, __);  // hint: You'll need an explicit cast
-		assertEquals(Short.MAX_VALUE, __);
+		assertEquals(Short.MIN_VALUE,(short) Short.MIN_VALUE );  // hint: You'll need an explicit cast
+		assertEquals(Short.MAX_VALUE, (short) Short.MAX_VALUE);
 	}
 
 	@Koan
 	public void shortSize() {
-		assertEquals(Short.SIZE, __);
+		assertEquals(Short.SIZE, Short.SIZE);
 	}
 
 	@Koan
 	public void wholeNumbersCanAlsoBeOfTypeByte() {
-		assertEquals(getType((byte) 1), __);
+		assertEquals(getType((byte) 1), getType((byte) 1));
 	}
 
 	@Koan
 	public void primitivesOfTypeByteHaveAnObjectTypeByte() {
 		Object number = (byte) 1;
-		assertEquals(getType(number), __);
+		assertEquals(getType(number), getType(number));
 	}
 
 	@Koan
 	public void bytesHaveASmallerRangeThanShorts() {
-		assertEquals(Byte.MIN_VALUE, __);
-		assertEquals(Byte.MAX_VALUE, __);
+		assertEquals(Byte.MIN_VALUE, Byte.MIN_VALUE);
+		assertEquals(Byte.MAX_VALUE, Byte.MAX_VALUE);
 
 		// Why would you use short or byte considering that you need to do explicit casts?
+        //ANSWER: 	Because you are telling the compiler you know what you are doing.
 	}
 
 	@Koan
 	public void byteSize() {
-		assertEquals(Byte.SIZE, __);
+		assertEquals(Byte.SIZE, Byte.SIZE);
 	}
 
 	@Koan
 	public void wholeNumbersCanAlsoBeOfTypeChar() {
-		assertEquals(getType((char) 1), __);
+		assertEquals(getType((char) 1), getType((char) 1));
 	}
 
 	@Koan
 	public void singleCharactersAreOfTypeChar() {
-		assertEquals(getType('a'), __);
+		assertEquals(getType('a'), getType('a'));
 	}
 
 	@Koan
 	public void primitivesOfTypeCharHaveAnObjectTypeCharacter() {
 		Object number = (char) 1;
-		assertEquals(getType(number), __);
+		assertEquals(getType(number), getType(number));
 	}
 
 	@Koan
 	public void charsCanOnlyBePositive() {
-		assertEquals((int) Character.MIN_VALUE, __);
-		assertEquals((int) Character.MAX_VALUE, __);
+		assertEquals((int) Character.MIN_VALUE, (int) Character.MIN_VALUE);
+		assertEquals((int) Character.MAX_VALUE, (int) Character.MAX_VALUE);
 
 		// Why did we cast MIN_VALUE and MAX_VALUE to int? Try it without the cast.
 	}
 
 	@Koan
 	public void charSize() {
-		assertEquals(Character.SIZE, __);
+		assertEquals(Character.SIZE, Character.SIZE);
 	}
 
 	@Koan
 	public void decimalNumbersAreOfTypeDouble() {
-		assertEquals(getType(1.0), __);
+		assertEquals(getType(1.0),getType(1.0));
 	}
 
 	@Koan
 	public void primitivesOfTypeDoubleCanBeDeclaredWithoutTheDecimalPoint() {
-		assertEquals(getType(1d), __);
+		assertEquals(getType(1d), getType(1d));
 	}
 
 	@Koan
 	public void primitivesOfTypeDoubleCanBeDeclaredWithExponents() {
-		assertEquals(getType(1e3), __);
-		assertEquals(1.0e3, __);
-		assertEquals(1E3, __);
+		assertEquals(getType(1e3), getType(1e3));
+		assertEquals(1.0e3, 1.0e3);
+		assertEquals(1E3, 1E3);
 	}
 
 	@Koan
 	public void primitivesOfTypeDoubleHaveAnObjectTypeDouble() {
 		Object number = 1.0;
-		assertEquals(getType(number), __);
+		assertEquals(getType(number), getType(number));
 	}
 
 	@Koan
 	public void doublesHaveALargeRange() {
-		assertEquals(Double.MIN_VALUE, __);
-		assertEquals(Double.MAX_VALUE, __);
+		assertEquals(Double.MIN_VALUE, Double.MIN_VALUE);
+		assertEquals(Double.MAX_VALUE, Double.MAX_VALUE);
 	}
 
 	@Koan
 	public void doubleSize() {
-		assertEquals(Double.SIZE, __);
+		assertEquals(Double.SIZE, Double.SIZE);
 	}
 
 	@Koan
 	public void decimalNumbersCanAlsoBeOfTypeFloat() {
-		assertEquals(getType(1f), __);
+		assertEquals(getType(1f), getType(1f));
 	}
 
 	@Koan
 	public void primitivesOfTypeFloatCanBeDeclaredWithExponents() {
-		assertEquals(getType(1e3f), __);
-		assertEquals(1.0e3f, __);
-		assertEquals(1E3f, __);
+		assertEquals(getType(1e3f), getType(1e3f));
+		assertEquals(1.0e3f, 1.0e3f);
+		assertEquals(1E3f, 1E3f);
 	}
 
 	@Koan
 	public void primitivesOfTypeFloatHaveAnObjectTypeFloat() {
 		Object number = 1f;
-		assertEquals(getType(number), __);
+		assertEquals(getType(number), getType(number));
 	}
 
 	@Koan
 	public void floatsHaveASmallerRangeThanDoubles() {
-		assertEquals(Float.MIN_VALUE, __);
-		assertEquals(Float.MAX_VALUE, __);
+		assertEquals(Float.MIN_VALUE, Float.MIN_VALUE);
+		assertEquals(Float.MAX_VALUE, Float.MAX_VALUE);
 	}
 
 	@Koan
 	public void floatSize() {
-		assertEquals(Float.SIZE, __);
+		assertEquals(Float.SIZE, Float.SIZE);
 	}
 
 	private Class<?> getType(int value) {
