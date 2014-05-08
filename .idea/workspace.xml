@@ -2,12 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="564b73cb-b7e5-49cd-bce5-928bd432a029" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/bin/beginner/AboutConstructors$A.class" afterPath="$PROJECT_DIR$/app/bin/beginner/AboutConstructors$A.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/bin/beginner/AboutConstructors$Aa.class" afterPath="$PROJECT_DIR$/app/bin/beginner/AboutConstructors$Aa.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/bin/beginner/AboutConstructors$B.class" afterPath="$PROJECT_DIR$/app/bin/beginner/AboutConstructors$B.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/bin/beginner/AboutConstructors$Bb.class" afterPath="$PROJECT_DIR$/app/bin/beginner/AboutConstructors$Bb.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/bin/beginner/AboutConstructors.class" afterPath="$PROJECT_DIR$/app/bin/beginner/AboutConstructors.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/beginner/AboutConstructors.java" afterPath="$PROJECT_DIR$/src/beginner/AboutConstructors.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/bin/beginner/AboutEnums$Colors.class" afterPath="$PROJECT_DIR$/app/bin/beginner/AboutEnums$Colors.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/bin/beginner/AboutEnums$OpticalMedia.class" afterPath="$PROJECT_DIR$/app/bin/beginner/AboutEnums$OpticalMedia.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/bin/beginner/AboutEnums$SkatSuits.class" afterPath="$PROJECT_DIR$/app/bin/beginner/AboutEnums$SkatSuits.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/bin/beginner/AboutEnums.class" afterPath="$PROJECT_DIR$/app/bin/beginner/AboutEnums.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/beginner/AboutEnums.java" afterPath="$PROJECT_DIR$/src/beginner/AboutEnums.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="koans.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -30,28 +30,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="AboutConditionals.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/beginner/AboutConditionals.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="650" max-vertical-offset="1320">
-              <caret line="160" column="0" selection-start-line="160" selection-start-column="0" selection-end-line="160" selection-end-column="0" />
-              <folding>
-                <element signature="method#basicIfWithoutCurly#0;class#AboutConditionals#0" expanded="false" />
-                <element signature="method#basicIfElseWithoutCurly#0;class#AboutConditionals#0" expanded="false" />
-                <element signature="method#basicIfElseIfElseWithoutCurly#0;class#AboutConditionals#0" expanded="false" />
-                <element signature="method#nestedIfsWithoutCurlysAreReallyMisleading#0;class#AboutConditionals#0" expanded="false" />
-                <element signature="method#basicSwitchStatement#0;class#AboutConditionals#0" expanded="false" />
-                <element signature="method#switchStatementFallThrough#0;class#AboutConditionals#0" expanded="false" />
-                <element signature="method#switchStatementCrazyFallThrough#0;class#AboutConditionals#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AboutConstructors.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="AboutConstructors.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/beginner/AboutConstructors.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.8208955" vertical-offset="155" max-vertical-offset="825">
+            <state vertical-scroll-proportion="0.0" vertical-offset="155" max-vertical-offset="825">
               <caret line="49" column="4" selection-start-line="49" selection-start-column="4" selection-end-line="49" selection-end-column="4" />
               <folding>
                 <element signature="e#249#250#0" expanded="true" />
@@ -64,6 +46,24 @@
                 <element signature="e#571#572#0" expanded="true" />
                 <element signature="e#781#782#0" expanded="true" />
                 <element signature="e#830#831#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AboutEnums.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/beginner/AboutEnums.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.8865672" vertical-offset="111" max-vertical-offset="840">
+              <caret line="66" column="68" selection-start-line="66" selection-start-column="68" selection-end-line="66" selection-end-column="68" />
+              <folding>
+                <element signature="method#basicEnums#0;class#AboutEnums#0" expanded="false" />
+                <element signature="method#basicEnumsAccess#0;class#AboutEnums#0" expanded="false" />
+                <element signature="e#831#832#0" expanded="true" />
+                <element signature="e#864#865#0" expanded="true" />
+                <element signature="method#enumsWithAttributes#0;class#AboutEnums#0" expanded="false" />
+                <element signature="e#1496#1497#0" expanded="true" />
+                <element signature="e#1545#1546#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -98,6 +98,7 @@
         <option value="$PROJECT_DIR$/src/beginner/AboutCasting.java" />
         <option value="$PROJECT_DIR$/src/beginner/AboutConditionals.java" />
         <option value="$PROJECT_DIR$/src/beginner/AboutConstructors.java" />
+        <option value="$PROJECT_DIR$/src/beginner/AboutEnums.java" />
       </list>
     </option>
   </component>
@@ -304,12 +305,12 @@
       <changelist id="564b73cb-b7e5-49cd-bce5-928bd432a029" name="Default" comment="" />
       <created>1399508801214</created>
       <updated>1399508801214</updated>
-      <workItem from="1399508802121" duration="6180000" />
+      <workItem from="1399508802121" duration="7106000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6180000" />
+    <option name="totallyTimeSpent" value="7106000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="1440" height="790" extended-state="6" />
@@ -406,7 +407,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/beginner/AboutConstructors.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.8208955" vertical-offset="155" max-vertical-offset="825">
+        <state vertical-scroll-proportion="0.0" vertical-offset="155" max-vertical-offset="825">
           <caret line="49" column="4" selection-start-line="49" selection-start-column="4" selection-end-line="49" selection-end-column="4" />
           <folding>
             <element signature="e#249#250#0" expanded="true" />
@@ -419,6 +420,22 @@
             <element signature="e#571#572#0" expanded="true" />
             <element signature="e#781#782#0" expanded="true" />
             <element signature="e#830#831#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/beginner/AboutEnums.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.8865672" vertical-offset="111" max-vertical-offset="840">
+          <caret line="66" column="68" selection-start-line="66" selection-start-column="68" selection-end-line="66" selection-end-column="68" />
+          <folding>
+            <element signature="method#basicEnums#0;class#AboutEnums#0" expanded="false" />
+            <element signature="method#basicEnumsAccess#0;class#AboutEnums#0" expanded="false" />
+            <element signature="e#831#832#0" expanded="true" />
+            <element signature="e#864#865#0" expanded="true" />
+            <element signature="method#enumsWithAttributes#0;class#AboutEnums#0" expanded="false" />
+            <element signature="e#1496#1497#0" expanded="true" />
+            <element signature="e#1545#1546#0" expanded="true" />
           </folding>
         </state>
       </provider>
