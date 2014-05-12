@@ -2,13 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="564b73cb-b7e5-49cd-bce5-928bd432a029" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/bin/intermediate/AboutComparison$Car.class" afterPath="$PROJECT_DIR$/app/bin/intermediate/AboutComparison$Car.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/bin/intermediate/AboutComparison$HorseAgeComparator.class" afterPath="$PROJECT_DIR$/app/bin/intermediate/AboutComparison$HorseAgeComparator.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/bin/intermediate/AboutComparison$HorseSpeedComparator.class" afterPath="$PROJECT_DIR$/app/bin/intermediate/AboutComparison$HorseSpeedComparator.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/bin/intermediate/AboutComparison$RaceHorse.class" afterPath="$PROJECT_DIR$/app/bin/intermediate/AboutComparison$RaceHorse.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/bin/intermediate/AboutComparison.class" afterPath="$PROJECT_DIR$/app/bin/intermediate/AboutComparison.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/config/file_hashes.dat" afterPath="$PROJECT_DIR$/app/config/file_hashes.dat" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/intermediate/AboutComparison.java" afterPath="$PROJECT_DIR$/src/intermediate/AboutComparison.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/bin/intermediate/AboutDates.class" afterPath="$PROJECT_DIR$/app/bin/intermediate/AboutDates.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/intermediate/AboutDates.java" afterPath="$PROJECT_DIR$/src/intermediate/AboutDates.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="koans.iws" />
@@ -42,21 +37,15 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AboutComparison.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/intermediate/AboutComparison.java">
+      <file leaf-file-name="AboutDates.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/intermediate/AboutDates.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.79037267" vertical-offset="481" max-vertical-offset="1140">
-              <caret line="78" column="0" selection-start-line="78" selection-start-column="0" selection-end-line="78" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.8136646" vertical-offset="331" max-vertical-offset="975">
+              <caret line="71" column="5" selection-start-line="71" selection-start-column="5" selection-end-line="71" selection-end-column="5" />
               <folding>
-                <element signature="method#compareObjects#0;class#AboutComparison#0" expanded="false" />
-                <element signature="e#796#797#0" expanded="true" />
-                <element signature="e#837#838#0" expanded="true" />
-                <element signature="e#1150#1151#0" expanded="true" />
-                <element signature="e#1200#1201#0" expanded="true" />
-                <element signature="e#1324#1325#0" expanded="true" />
-                <element signature="e#1359#1360#0" expanded="true" />
-                <element signature="e#1481#1482#0" expanded="true" />
-                <element signature="e#1512#1513#0" expanded="true" />
+                <element signature="e#428#429#0" expanded="true" />
+                <element signature="e#481#482#0" expanded="true" />
+                <element signature="method#usingCalendarToChangeDates#0;class#AboutDates#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -85,6 +74,7 @@
         <option value="$PROJECT_DIR$/src/intermediate/AboutAutoboxing.java" />
         <option value="$PROJECT_DIR$/src/intermediate/AboutCollections.java" />
         <option value="$PROJECT_DIR$/src/intermediate/AboutComparison.java" />
+        <option value="$PROJECT_DIR$/src/intermediate/AboutDates.java" />
       </list>
     </option>
   </component>
@@ -352,12 +342,12 @@
       <updated>1399508801214</updated>
       <workItem from="1399508802121" duration="12851000" />
       <workItem from="1399594594137" duration="13000" />
-      <workItem from="1399594646545" duration="14038000" />
+      <workItem from="1399594646545" duration="14333000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="26902000" />
+    <option name="totallyTimeSpent" value="27197000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="1440" height="790" extended-state="0" />
@@ -587,8 +577,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/intermediate/AboutComparison.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.79037267" vertical-offset="481" max-vertical-offset="1140">
-          <caret line="78" column="0" selection-start-line="78" selection-start-column="0" selection-end-line="78" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="481" max-vertical-offset="1140">
+          <caret line="82" column="0" selection-start-line="82" selection-start-column="0" selection-end-line="82" selection-end-column="0" />
           <folding>
             <element signature="method#compareObjects#0;class#AboutComparison#0" expanded="false" />
             <element signature="e#796#797#0" expanded="true" />
@@ -599,6 +589,18 @@
             <element signature="e#1359#1360#0" expanded="true" />
             <element signature="e#1481#1482#0" expanded="true" />
             <element signature="e#1512#1513#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/intermediate/AboutDates.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.8136646" vertical-offset="331" max-vertical-offset="975">
+          <caret line="71" column="5" selection-start-line="71" selection-start-column="5" selection-end-line="71" selection-end-column="5" />
+          <folding>
+            <element signature="e#428#429#0" expanded="true" />
+            <element signature="e#481#482#0" expanded="true" />
+            <element signature="method#usingCalendarToChangeDates#0;class#AboutDates#0" expanded="false" />
           </folding>
         </state>
       </provider>
