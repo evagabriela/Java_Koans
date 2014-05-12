@@ -2,11 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="564b73cb-b7e5-49cd-bce5-928bd432a029" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/bin/intermediate/AboutEquality$Car.class" afterPath="$PROJECT_DIR$/app/bin/intermediate/AboutEquality$Car.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/bin/intermediate/AboutEquality$Chicken.class" afterPath="$PROJECT_DIR$/app/bin/intermediate/AboutEquality$Chicken.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/bin/intermediate/AboutEquality.class" afterPath="$PROJECT_DIR$/app/bin/intermediate/AboutEquality.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/bin/intermediate/AboutFileIO.class" afterPath="$PROJECT_DIR$/app/bin/intermediate/AboutFileIO.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/config/file_hashes.dat" afterPath="$PROJECT_DIR$/app/config/file_hashes.dat" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/intermediate/AboutEquality.java" afterPath="$PROJECT_DIR$/src/intermediate/AboutEquality.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/intermediate/AboutFileIO.java" afterPath="$PROJECT_DIR$/src/intermediate/AboutFileIO.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="koans.iws" />
@@ -30,30 +29,15 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="AboutEquality.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/intermediate/AboutEquality.java">
+      <file leaf-file-name="AboutFileIO.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/intermediate/AboutFileIO.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.83201265" vertical-offset="1530" max-vertical-offset="2205">
-              <caret line="137" column="10" selection-start-line="137" selection-start-column="10" selection-end-line="137" selection-end-column="10" />
+            <state vertical-scroll-proportion="0.69720495" vertical-offset="661" max-vertical-offset="1305">
+              <caret line="104" column="0" selection-start-line="104" selection-start-column="0" selection-end-line="105" selection-end-column="9" />
               <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#667#668#0" expanded="true" />
-                <element signature="e#720#721#0" expanded="true" />
-                <element signature="e#3295#3296#0" expanded="true" />
-                <element signature="e#3315#3316#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AboutEquality.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/beginner/AboutEquality.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="46" max-vertical-offset="690">
-              <caret line="34" column="43" selection-start-line="34" selection-start-column="43" selection-end-line="34" selection-end-column="43" />
-              <folding>
-                <element signature="e#974#975#0" expanded="true" />
-                <element signature="e#1027#1028#0" expanded="true" />
+                <element signature="method#fileObjectDoesntCreateFile#0;class#AboutFileIO#0" expanded="false" />
+                <element signature="method#fileCreationAndDeletion#0;class#AboutFileIO#0" expanded="false" />
+                <element signature="method#closeStream#0;class#AboutFileIO#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -84,6 +68,7 @@
         <option value="$PROJECT_DIR$/src/intermediate/AboutComparison.java" />
         <option value="$PROJECT_DIR$/src/intermediate/AboutDates.java" />
         <option value="$PROJECT_DIR$/src/intermediate/AboutEquality.java" />
+        <option value="$PROJECT_DIR$/src/intermediate/AboutFileIO.java" />
       </list>
     </option>
   </component>
@@ -156,24 +141,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="intermediate" />
-              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="koans" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="koans" />
-              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="beginner" />
               <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -370,12 +337,12 @@
       <updated>1399508801214</updated>
       <workItem from="1399508802121" duration="12851000" />
       <workItem from="1399594594137" duration="13000" />
-      <workItem from="1399594646545" duration="25242000" />
+      <workItem from="1399594646545" duration="29321000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="38106000" />
+    <option name="totallyTimeSpent" value="42185000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-4" y="37" width="1440" height="790" extended-state="0" />
@@ -636,9 +603,23 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/intermediate/AboutEquality.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.68938196" vertical-offset="1530" max-vertical-offset="2205">
+          <caret line="131" column="41" selection-start-line="131" selection-start-column="41" selection-end-line="131" selection-end-column="41" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#667#668#0" expanded="true" />
+            <element signature="e#720#721#0" expanded="true" />
+            <element signature="e#3295#3296#0" expanded="true" />
+            <element signature="e#3315#3316#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/beginner/AboutEquality.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="46" max-vertical-offset="690">
+        <state vertical-scroll-proportion="0.6506211" vertical-offset="46" max-vertical-offset="690">
           <caret line="34" column="43" selection-start-line="34" selection-start-column="43" selection-end-line="34" selection-end-column="43" />
           <folding>
             <element signature="e#974#975#0" expanded="true" />
@@ -647,16 +628,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/intermediate/AboutEquality.java">
+    <entry file="file://$PROJECT_DIR$/src/intermediate/AboutFileIO.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.83201265" vertical-offset="1530" max-vertical-offset="2205">
-          <caret line="137" column="10" selection-start-line="137" selection-start-column="10" selection-end-line="137" selection-end-column="10" />
+        <state vertical-scroll-proportion="0.69720495" vertical-offset="661" max-vertical-offset="1305">
+          <caret line="104" column="0" selection-start-line="104" selection-start-column="0" selection-end-line="105" selection-end-column="9" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#667#668#0" expanded="true" />
-            <element signature="e#720#721#0" expanded="true" />
-            <element signature="e#3295#3296#0" expanded="true" />
-            <element signature="e#3315#3316#0" expanded="true" />
+            <element signature="method#fileObjectDoesntCreateFile#0;class#AboutFileIO#0" expanded="false" />
+            <element signature="method#fileCreationAndDeletion#0;class#AboutFileIO#0" expanded="false" />
+            <element signature="method#closeStream#0;class#AboutFileIO#0" expanded="false" />
           </folding>
         </state>
       </provider>

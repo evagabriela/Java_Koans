@@ -135,7 +135,7 @@ public class AboutEquality {
 		// Does this still fit the hashCode contract? Why?
 //        Answer:  because we override the hashCode, then if we call the hashCode method then it will output 4000 and therefore both objects will be equal hashcode
 		// If it's valid why is this still not a good idea?
-//        
+//
 	}
 	
 }
