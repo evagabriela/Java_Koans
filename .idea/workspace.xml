@@ -3,9 +3,13 @@
   <component name="ChangeListManager">
     <list default="true" id="564b73cb-b7e5-49cd-bce5-928bd432a029" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/bin/intermediate/AboutFileIO.class" afterPath="$PROJECT_DIR$/app/bin/intermediate/AboutFileIO.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/config/file_hashes.dat" afterPath="$PROJECT_DIR$/app/config/file_hashes.dat" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/intermediate/AboutEquality.java" afterPath="$PROJECT_DIR$/src/intermediate/AboutEquality.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/bin/intermediate/AboutInnerClasses$1.class" afterPath="$PROJECT_DIR$/app/bin/intermediate/AboutInnerClasses$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/bin/intermediate/AboutInnerClasses$2.class" afterPath="$PROJECT_DIR$/app/bin/intermediate/AboutInnerClasses$2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/bin/intermediate/AboutInnerClasses$OtherInner.class" afterPath="$PROJECT_DIR$/app/bin/intermediate/AboutInnerClasses$OtherInner.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/bin/intermediate/AboutInnerClasses$StaticInnerClass.class" afterPath="$PROJECT_DIR$/app/bin/intermediate/AboutInnerClasses$StaticInnerClass.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/bin/intermediate/AboutInnerClasses.class" afterPath="$PROJECT_DIR$/app/bin/intermediate/AboutInnerClasses.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/intermediate/AboutFileIO.java" afterPath="$PROJECT_DIR$/src/intermediate/AboutFileIO.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/intermediate/AboutInnerClasses.java" afterPath="$PROJECT_DIR$/src/intermediate/AboutInnerClasses.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="koans.iws" />
@@ -29,15 +33,32 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="AboutFileIO.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="AboutFileIO.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/intermediate/AboutFileIO.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.69720495" vertical-offset="661" max-vertical-offset="1305">
-              <caret line="104" column="0" selection-start-line="104" selection-start-column="0" selection-end-line="105" selection-end-column="9" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="631" max-vertical-offset="1275">
+              <caret line="99" column="0" selection-start-line="99" selection-start-column="0" selection-end-line="99" selection-end-column="0" />
               <folding>
                 <element signature="method#fileObjectDoesntCreateFile#0;class#AboutFileIO#0" expanded="false" />
                 <element signature="method#fileCreationAndDeletion#0;class#AboutFileIO#0" expanded="false" />
                 <element signature="method#closeStream#0;class#AboutFileIO#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AboutInnerClasses.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/intermediate/AboutInnerClasses.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-0.6304348" vertical-offset="1471" max-vertical-offset="2115">
+              <caret line="74" column="26" selection-start-line="74" selection-start-column="26" selection-end-line="74" selection-end-column="26" />
+              <folding>
+                <element signature="e#1213#1214#0" expanded="true" />
+                <element signature="e#1237#1238#0" expanded="true" />
+                <element signature="e#1656#1747#0" expanded="true" />
+                <element signature="e#1742#1743#0" expanded="true" />
+                <element signature="e#1936#2029#0" expanded="true" />
+                <element signature="e#2024#2025#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -69,6 +90,7 @@
         <option value="$PROJECT_DIR$/src/intermediate/AboutDates.java" />
         <option value="$PROJECT_DIR$/src/intermediate/AboutEquality.java" />
         <option value="$PROJECT_DIR$/src/intermediate/AboutFileIO.java" />
+        <option value="$PROJECT_DIR$/src/intermediate/AboutInnerClasses.java" />
       </list>
     </option>
   </component>
@@ -337,12 +359,12 @@
       <updated>1399508801214</updated>
       <workItem from="1399508802121" duration="12851000" />
       <workItem from="1399594594137" duration="13000" />
-      <workItem from="1399594646545" duration="29321000" />
+      <workItem from="1399594646545" duration="30347000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="42185000" />
+    <option name="totallyTimeSpent" value="43211000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-4" y="37" width="1440" height="790" extended-state="0" />
@@ -630,12 +652,27 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/intermediate/AboutFileIO.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.69720495" vertical-offset="661" max-vertical-offset="1305">
-          <caret line="104" column="0" selection-start-line="104" selection-start-column="0" selection-end-line="105" selection-end-column="9" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="631" max-vertical-offset="1275">
+          <caret line="99" column="0" selection-start-line="99" selection-start-column="0" selection-end-line="99" selection-end-column="0" />
           <folding>
             <element signature="method#fileObjectDoesntCreateFile#0;class#AboutFileIO#0" expanded="false" />
             <element signature="method#fileCreationAndDeletion#0;class#AboutFileIO#0" expanded="false" />
             <element signature="method#closeStream#0;class#AboutFileIO#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/intermediate/AboutInnerClasses.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.6304348" vertical-offset="1471" max-vertical-offset="2115">
+          <caret line="74" column="26" selection-start-line="74" selection-start-column="26" selection-end-line="74" selection-end-column="26" />
+          <folding>
+            <element signature="e#1213#1214#0" expanded="true" />
+            <element signature="e#1237#1238#0" expanded="true" />
+            <element signature="e#1656#1747#0" expanded="true" />
+            <element signature="e#1742#1743#0" expanded="true" />
+            <element signature="e#1936#2029#0" expanded="true" />
+            <element signature="e#2024#2025#0" expanded="true" />
           </folding>
         </state>
       </provider>

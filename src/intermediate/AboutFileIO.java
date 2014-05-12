@@ -99,10 +99,8 @@ public class AboutFileIO {
         BufferedReader br = new BufferedReader(fr);
 
         String line;
-
         while ((line = br.readLine())!= null){
             sb.append(line);
-
         }
 
 		assertEquals(sb.toString(), sb.toString() );
