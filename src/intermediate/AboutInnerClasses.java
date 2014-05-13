@@ -126,8 +126,10 @@ public class AboutInnerClasses {
 		// What happens if you try to access 'x' or 'theAnswer' from the outer class?
 		// What does this mean for static inner classes?
 		// Try to create a sub package of this package which is named 'StaticInnerClass'
-		// Does it work? Why not?
+		// Does it work? Why not?  - ANSWER: It doesnt because it can tell that it was already created and instead it only allow me to type if I am creating a field
 	}
+
+
 	
 	@Koan
 	public void staticInnerClassFullyQualified() {
