@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="564b73cb-b7e5-49cd-bce5-928bd432a029" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/bin/intermediate/AboutInnerClasses.class" afterPath="$PROJECT_DIR$/app/bin/intermediate/AboutInnerClasses.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/bin/intermediate/AboutLocale.class" afterPath="$PROJECT_DIR$/app/bin/intermediate/AboutLocale.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/intermediate/AboutInnerClasses.java" afterPath="$PROJECT_DIR$/src/intermediate/AboutInnerClasses.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/intermediate/AboutLocale.java" afterPath="$PROJECT_DIR$/src/intermediate/AboutLocale.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/bin/intermediate/AboutRegularExpressions.class" afterPath="$PROJECT_DIR$/app/bin/intermediate/AboutRegularExpressions.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/intermediate/AboutRegularExpressions.java" afterPath="$PROJECT_DIR$/src/intermediate/AboutRegularExpressions.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="koans.iws" />
@@ -29,11 +27,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="AboutLocale.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/intermediate/AboutLocale.java">
+      <file leaf-file-name="AboutRegularExpressions.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/intermediate/AboutRegularExpressions.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.79037267" vertical-offset="61" max-vertical-offset="705">
-              <caret line="47" column="55" selection-start-line="47" selection-start-column="55" selection-end-line="47" selection-end-column="55" />
+            <state vertical-scroll-proportion="0.79037267" vertical-offset="211" max-vertical-offset="855">
+              <caret line="54" column="42" selection-start-line="54" selection-start-column="42" selection-end-line="54" selection-end-column="42" />
               <folding />
             </state>
           </provider>
@@ -67,6 +65,7 @@
         <option value="$PROJECT_DIR$/src/intermediate/AboutFileIO.java" />
         <option value="$PROJECT_DIR$/src/intermediate/AboutInnerClasses.java" />
         <option value="$PROJECT_DIR$/src/intermediate/AboutLocale.java" />
+        <option value="$PROJECT_DIR$/src/intermediate/AboutRegularExpressions.java" />
       </list>
     </option>
   </component>
@@ -340,12 +339,12 @@
       <updated>1399508801214</updated>
       <workItem from="1399508802121" duration="12851000" />
       <workItem from="1399594594137" duration="13000" />
-      <workItem from="1399594646545" duration="30760000" />
+      <workItem from="1399594646545" duration="31249000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="43624000" />
+    <option name="totallyTimeSpent" value="44113000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-4" y="37" width="1440" height="790" extended-state="0" />
@@ -660,8 +659,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/intermediate/AboutLocale.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.79037267" vertical-offset="61" max-vertical-offset="705">
+        <state vertical-scroll-proportion="0.0" vertical-offset="61" max-vertical-offset="705">
           <caret line="47" column="55" selection-start-line="47" selection-start-column="55" selection-end-line="47" selection-end-column="55" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/intermediate/AboutRegularExpressions.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.79037267" vertical-offset="211" max-vertical-offset="855">
+          <caret line="54" column="42" selection-start-line="54" selection-start-column="42" selection-end-line="54" selection-end-column="42" />
           <folding />
         </state>
       </provider>
