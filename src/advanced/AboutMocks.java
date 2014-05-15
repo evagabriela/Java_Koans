@@ -3,6 +3,7 @@ package advanced;
 import com.sandwich.koan.Koan;
 import static com.sandwich.util.Assert.fail;
 
+
 public class AboutMocks {
 	
 	static interface Collaborator {
@@ -14,7 +15,13 @@ public class AboutMocks {
 			fail("Default collaborator's behavior is complicating testing.");
 		}
 	}
-	
+
+    static class GoodCollaborator implements Collaborator {
+        public void doBusinessStuff() {
+
+        }
+    }
+
 	static class ClassUnderTest {
 		Collaborator c;
 		public ClassUnderTest(){
@@ -36,7 +43,9 @@ public class AboutMocks {
 		// HINT: pass a safe Collaborator implementation to constructor
 		// new ClassUnderTest(new Collaborator(){... it should not be the
 		// objective of this test to test that collaborator, so replace it
-		new ClassUnderTest().doSomething();
+
+        GoodCollaborator goodCollaborator = new GoodCollaborator();
+        new ClassUnderTest(goodCollaborator).doSomething();
 	}
 	
 }
